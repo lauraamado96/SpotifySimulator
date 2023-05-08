@@ -32,12 +32,13 @@ In order to see everything working you can download this repository and https://
 Run both:
 
 Spotify -> `ng serve --port=4200` 
+
 NodeApiTracksSpotify -> `node app.js`
 
-Now you can navigate to `http://localhost:4200/` and try the "Home", "Buscar" and "Tu biblioteca" tabs.
+Now you can navigate to `http://localhost:4200/` and try the "Home", "Buscar" and "Tu biblioteca" tabs
 
 In "Home", you will authenticate and listen to tracks. You can stop and resume each song. In addition to clicking anywhere on progress bar of the song that is playing. Credentials --> User: test@test.com; Password: 12345678
 
-In "Buscar", you will be able to see the result of what you write. Futhermore, you can sort by title or album (Click on "TÍTULO" or "ÁLBUM").
+In "Buscar", you will be able to see the result of what you write. Futhermore, you can sort by title or album (Click on "TÍTULO" or "ÁLBUM")
 
-In "Tu biblioteca", you can sort by title or album (Click on "TÍTULO" or "ÁLBUM").
+In "Tu biblioteca", you can sort by title or album (Click on "TÍTULO" or "ÁLBUM")
