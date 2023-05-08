@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve --port=4200` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## More info
+
+In order to see everything working you can download this repository and https://github.com/lauraamado96/NodeApiTracksSpotify.
+Run both:
+
+Spotify -> `ng serve --port=4200` 
+NodeApiTracksSpotify -> `node app.js`
+
+Now you can navigate to `http://localhost:4200/` and try the "Home", "Buscar" and "Tu biblioteca" tabs.
+
+In "Home", you will authenticate and listen to tracks. You can stop and resume each song. In addition to clicking anywhere on progress bar of the song that is playing. Credentials --> User: test@test.com; Password: 12345678
+
+In "Buscar", you will be able to see the result of what you write. Futhermore, you can sort by title or album (Click on "TÍTULO" or "ÁLBUM").
+
+In "Tu biblioteca", you can sort by title or album (Click on "TÍTULO" or "ÁLBUM").
