@@ -2,9 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
 
-## Development server
+## NPM
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `npm install -g @angular/cli` to generate the node_modules folder before starting the server.
+
+## Server
+
+Run `ng serve` for a server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
@@ -29,6 +33,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## More info
 
 In order to see everything working you can download this repository and https://github.com/lauraamado96/NodeApiTracksSpotify.
+
 Run both:
 
 Spotify -> `ng serve --port=4200` 
